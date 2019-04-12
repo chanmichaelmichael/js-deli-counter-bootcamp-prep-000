@@ -4,3 +4,26 @@ function takeANumber(katzDeliLine, name){
   console.log(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
   katzDeliLine.push(name);
 }
+
+function nowServing(katzDeliLine){
+  if(katzDeliLine.length===0){
+    return "There is nobody waiting to be served!"
+  }
+  else{
+    var person = katzDeliLine[0];
+    katzDeliLine.shift();
+    return person
+  }
+}
+
+function currentLine(katzDeliLine){
+  if(katzDeliLine.length===0){
+    return "The line is currently empty."
+  }
+  else{
+    var output = "The line is currently ";
+    for(let i = 0; i < katzDeliLine.length; i++){
+    output.concat(i+1).concat(". ").concat(katzDeliLine[i]).concat(", ")
+    }
+  }
+}
