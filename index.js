@@ -25,5 +25,6 @@ function currentLine(katzDeliLine){
     for(let i = 0; i < katzDeliLine.length; i++){
     output.concat(i+1).concat(". ").concat(katzDeliLine[i]).concat(", ")
     }
+    return output
   }
 }
