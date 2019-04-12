@@ -29,7 +29,7 @@ function currentLine(katzDeliLine){
     var temp;
     for(let i = 0; i < len; i++){
       //output.concat(i.toString(),". ",katzDeliLine[i],", ")
-      output.concat(katzDeliLine[i])
+      output = output.concat(katzDeliLine[i])
     }
   }
   return output
