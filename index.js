@@ -33,6 +33,6 @@ function currentLine(katzDeliLine){
       //output.concat(temp);
       output.concat(i.toString(),". ",katzDeliLine[i],", ")
     }
-    return output
   }
+  return output
 }
