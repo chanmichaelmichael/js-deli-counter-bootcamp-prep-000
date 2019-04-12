@@ -26,6 +26,8 @@ function currentLine(katzDeliLine){
   }
   else{
     output = "The line is currently: ";
+    output = output.concat(0,". ",katzDeliLine[0],", ")
+
     var temp;
     for(let i = 0; i < len; i++){
       output = output.concat(i + 1,". ",katzDeliLine[i],", ")
