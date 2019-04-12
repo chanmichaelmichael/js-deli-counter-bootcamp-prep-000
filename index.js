@@ -28,8 +28,8 @@ function currentLine(katzDeliLine){
     output = "The line is currently: ";
     var temp;
     for(let i = 0; i < len; i++){
-      //output.concat(i.toString(),". ",katzDeliLine[i],", ")
-      output = output.concat(katzDeliLine[i])
+      output = output.concat(i.toString(),". ",katzDeliLine[i],", ")
+      //output = output.concat(katzDeliLine[i])
     }
   }
   return output
