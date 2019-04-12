@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
   var output;
   //console.log(`length is: ${len}`)
   if(len===0){
-    output = "The line is currently empty."
+    output = "The line is currently empty.";
   }
   else{
     output = "The line is currently: ";
