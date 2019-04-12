@@ -30,7 +30,7 @@ function currentLine(katzDeliLine){
       //console.log(katzDeliLine[i])
       //temp = `${i + 1}. ${katzDeliLine[i]}, `;
       //output.concat(temp);
-      output.concat(i.toString())
+      output.concat(i.toString(),". ",katzDeliLine[i],", ")
     }
     return output
   }
